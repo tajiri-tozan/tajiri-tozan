@@ -28,15 +28,21 @@ export default function () {
       </Header>
       <Yama
         animation={Animation.SlideInLeft}
-        title={"槍ヶ岳"}
-        description="槍ヶ岳です"
-        imgSrc="/images/yarigadake.jpg"
+        title={"陣馬山"}
+        description="2014/12/07"
+        imgSrc="/images/20141207-jinbasan.jpg"
       />
       <Yama
         animation={Animation.SlideInRight}
         title={"槍ヶ岳"}
-        description="槍ヶ岳です"
+        description="2015/09/20"
         imgSrc="/images/yarigadake.jpg"
+      />
+      <Yama
+        animation={Animation.SlideInLeft}
+        title={"八ヶ岳"}
+        description="2018/07/21"
+        imgSrc="/images/20180721-yatsugatake.jpg"
       />
     </Contents>
   );
