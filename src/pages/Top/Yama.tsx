@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
-      marginTop: 50,
+      marginTop: 300,
     },
     paper: {
       padding: theme.spacing(2),
@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme: Theme) =>
       maxWidth: 1000,
     },
     image: {
-      width: 256,
-      height: 256,
+      width: "auto",
+      Height: "500px",
     },
     img: {
       margin: "auto",
@@ -46,7 +46,7 @@ export default function (props: Props) {
       <div className={classes.root}>
         <Paper className={classes.paper}>
           <Grid container spacing={2}>
-            <Grid item>
+            <Grid item className={classes.image}>
               <img className={classes.img} alt={title} src={imgSrc} />
             </Grid>
             <Grid item xs={12} sm container alignItems="center">
