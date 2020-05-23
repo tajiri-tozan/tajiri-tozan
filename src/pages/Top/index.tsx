@@ -37,7 +37,7 @@ export default function () {
         animation={Animation.SlideInRight}
         title={"槍ヶ岳"}
         description="2015/09/20"
-        imgSrc="/images/yarigadake.jpg"
+        imgSrc="/images/20150920-yarigadake.jpg"
       />
       <Yama
         animation={Animation.SlideInLeft}
