@@ -18,7 +18,7 @@ const Header = styled.header`
 
 const SiteTitle = styled.h1`
   margin: 50px 0 40px;
-  font-size: 7.6rem;
+  font-size: 5rem;
 `;
 
 export default function () {
