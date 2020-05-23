@@ -1,7 +1,6 @@
 import React from "react";
 import { Reveal } from "react-genie";
 import { Animation } from "react-genie-styled-components";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
@@ -48,7 +47,7 @@ export default function (props: Props) {
         <Paper className={classes.paper}>
           <Grid container spacing={2}>
             <Grid item className={classes.image}>
-              <LazyLoadImage className={classes.img} alt={title} src={imgSrc} />
+              <img className={classes.img} alt={title} src={imgSrc} />
             </Grid>
             <Grid item xs={12} sm container alignItems="center">
               <Grid item xs container direction="column" spacing={2}>
