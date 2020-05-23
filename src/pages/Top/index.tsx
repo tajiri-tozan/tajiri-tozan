@@ -9,6 +9,7 @@ const Contents = styled.div`
   background-size: cover;
   color: #fff;
   text-align: center;
+  padding: 50px;
 `;
 
 const Header = styled.header`
