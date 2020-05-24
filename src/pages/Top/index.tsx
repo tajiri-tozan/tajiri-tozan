@@ -28,17 +28,17 @@ const tileData = [
   {
     img: "/images/20141207-jinbasan.jpg",
     title: "陣馬山",
-    author: "2014/12/07",
+    description: "2014/12/07",
   },
   {
     img: "/images/20150920-yarigadake.jpg",
     title: "槍ヶ岳",
-    author: "2015/09/20",
+    description: "2015/09/20",
   },
   {
     img: "/images/20180721-yatsugatake.jpg",
     title: "八ヶ岳",
-    author: "2018/07/21",
+    description: "2018/07/21",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function () {
               <img src={tile.img} alt={tile.title} />
               <GridListTileBar
                 title={tile.title}
-                subtitle={<span>{tile.author}</span>}
+                subtitle={<span>{tile.description}</span>}
               />
             </GridListTile>
           ))}
