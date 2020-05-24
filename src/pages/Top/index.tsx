@@ -1,5 +1,4 @@
 import React from "react";
-import { Animation } from "react-genie-styled-components";
 import styled from "styled-components/macro";
 import Yama from "./Yama";
 
@@ -28,22 +27,19 @@ export default function () {
         <SiteTitle>Tajiri Tozan</SiteTitle>
       </Header>
       <Yama
-        animation={Animation.SlideInLeft}
         title={"陣馬山"}
         description="2014/12/07"
-        imgSrc="https://storage.googleapis.com/tajiri-tozan.appspot.com/yama/20141207-jinbasan.jpg"
+        imgSrc="/images/20141207-jinbasan.jpg"
       />
       <Yama
-        animation={Animation.SlideInRight}
         title={"槍ヶ岳"}
         description="2015/09/20"
-        imgSrc="https://storage.googleapis.com/tajiri-tozan.appspot.com/yama/20150920-yarigadake.jpg"
+        imgSrc="/images/20150920-yarigadake.jpg"
       />
       <Yama
-        animation={Animation.SlideInLeft}
         title={"八ヶ岳"}
         description="2018/07/21"
-        imgSrc="https://storage.googleapis.com/tajiri-tozan.appspot.com/yama/20180721-yatsugatake.jpg"
+        imgSrc="/images/20180721-yatsugatake.jpg"
       />
     </Contents>
   );
