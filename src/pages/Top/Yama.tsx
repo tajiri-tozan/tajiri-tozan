@@ -21,8 +21,6 @@ const useStyles = makeStyles((theme: Theme) =>
       Height: "500px",
     },
     img: {
-      margin: "auto",
-      display: "block",
       maxWidth: "100%",
       maxHeight: "100%",
     },
