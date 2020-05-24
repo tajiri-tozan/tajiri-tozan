@@ -4,7 +4,7 @@ import { Theme, createStyles, makeStyles } from "@material-ui/core/styles";
 import GridList from "@material-ui/core/GridList";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
-// import tileData from "./tileData";
+import yamas from "./yama";
 
 const Contents = styled.div`
   background: #151515 url("/images/yarigadake.jpg") no-repeat fixed center
@@ -23,24 +23,6 @@ const SiteTitle = styled.h1`
   margin: 50px 0 40px;
   font-size: 5rem;
 `;
-
-const tileData = [
-  {
-    img: "/images/20141207-jinbasan.jpg",
-    title: "陣馬山",
-    description: "2014/12/07",
-  },
-  {
-    img: "/images/20150920-yarigadake.jpg",
-    title: "槍ヶ岳",
-    description: "2015/09/20",
-  },
-  {
-    img: "/images/20180721-yatsugatake.jpg",
-    title: "八ヶ岳",
-    description: "2018/07/21",
-  },
-];
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -73,12 +55,12 @@ export default function () {
           cols={1}
           spacing={100}
         >
-          {tileData.map((tile) => (
-            <GridListTile key={tile.img}>
-              <img src={tile.img} alt={tile.title} />
+          {yamas.map((yama) => (
+            <GridListTile key={yama.img}>
+              <img src={yama.img} alt={yama.title} />
               <GridListTileBar
-                title={tile.title}
-                subtitle={<span>{tile.description}</span>}
+                title={yama.title}
+                subtitle={<span>{yama.description}</span>}
               />
             </GridListTile>
           ))}
