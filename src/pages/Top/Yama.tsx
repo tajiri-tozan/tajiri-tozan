@@ -40,6 +40,8 @@ export default function (props: Props) {
 
   return (
     <div className={classes.root}>
+      <LazyLoadImage className={classes.img} alt={title} src={imgSrc} />
+
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item className={classes.image}>
