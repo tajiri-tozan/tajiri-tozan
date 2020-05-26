@@ -1,3 +1,17 @@
+タジリと愉快な仲間たちの登山道
+
+# How to add image
+
+1. Add mountain infomation to `src/pages/Top/yama.ts`.
+2. Add image to public/images
+3. commit and push to master branch
+
+# deploy
+
+When pushed to master branch, to deploy to production.
+
+# devleopment
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
