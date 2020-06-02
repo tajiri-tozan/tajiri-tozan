@@ -8,7 +8,11 @@
 
 # deploy
 
-When pushed to master branch, to deploy to production.
+~~When pushed to master branch, to deploy to production.~~
+
+```
+firebase deploy
+```
 
 # devleopment
 
