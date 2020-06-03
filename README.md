@@ -11,6 +11,7 @@
 ~~When pushed to master branch, to deploy to production.~~
 
 ```
+yarn build
 firebase deploy
 ```
 
