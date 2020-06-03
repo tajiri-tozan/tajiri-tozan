@@ -24,6 +24,11 @@ const SiteTitle = styled.h1`
   font-size: 5rem;
 `;
 
+const YamaImg = styled.img`
+  width: 100%;
+  height: auto;
+`;
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -50,14 +55,14 @@ export default function () {
       </Header>
       <div className={classes.root}>
         <GridList
-          cellHeight={768}
+          cellHeight={"auto"}
           className={classes.gridList}
           cols={1}
           spacing={100}
         >
           {yamas.map((yama) => (
             <GridListTile key={yama.img}>
-              <img src={yama.img} alt={yama.title} />
+              <YamaImg src={yama.img} alt={yama.title} />
               <GridListTileBar
                 title={yama.title}
                 subtitle={<span>{yama.description}</span>}
