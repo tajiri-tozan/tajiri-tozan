@@ -1,6 +1,8 @@
 タジリと愉快な仲間たちの登山道
 
 [![Test](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/test.yml/badge.svg)](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/test.yml)
+[![Build](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/build.yml/badge.svg)](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/build.yml)
+[![Deploy](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/tajiri-tozan/tajiri-tozan/actions/workflows/firebase-hosting-merge.yml)
 
 # How to add image
 
@@ -10,7 +12,9 @@
 
 # deploy
 
-~~When pushed to main branch, to deploy to production.~~
+When pushed to main branch, to deploy to production.
+
+Manual command.
 
 ```
 yarn build
