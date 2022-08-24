@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function () {
+export default function Top() {
   const classes = useStyles();
 
   return (
