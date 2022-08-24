@@ -6,11 +6,11 @@
 
 1. Add mountain information to `src/pages/Top/yama.ts`.
 2. Add image to public/images
-3. commit and push to master branch
+3. commit and push to main branch
 
 # deploy
 
-~~When pushed to master branch, to deploy to production.~~
+~~When pushed to main branch, to deploy to production.~~
 
 ```
 yarn build
