@@ -1541,12 +1541,10 @@
     "@babel/runtime" "^7.10.3"
     "@testing-library/dom" "^7.22.3"
 
-"@testing-library/user-event@10.4.1":
-  version "10.4.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-10.4.1.tgz#f62adeae45681484dc24e6ca4f0b8f8a09321429"
-  integrity sha512-3sdJAfjT0i4aNvo0Gqod5MvZXutMXarVsLtb+r1t65AaRJY7BgMIzWgOtfM5dxRvZsc7IdXnCt9+gcWhiXk1xg==
-  dependencies:
-    "@babel/runtime" "^7.10.2"
+"@testing-library/user-event@14.5.2":
+  version "14.5.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.2.tgz#db7257d727c891905947bd1c1a99da20e03c2ebd"
+  integrity sha512-YAh82Wh4TIrxYLmfGcixwD18oIjyC1pFQC2Y01F2lzV2HTMiYrI0nze0FD0ocB//CKS/7jIUgae+adPqxK5yCQ==
 
 "@tootallnate/once@1":
   version "1.1.2"
