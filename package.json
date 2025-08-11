@@ -12,7 +12,7 @@
     "react-dom": "16.14.0",
     "react-genie": "0.2.2",
     "react-genie-styled-components": "0.1.1",
-    "react-lazy-load-image-component": "1.6.0",
+    "react-lazy-load-image-component": "1.6.3",
     "react-router-dom": "5.3.4",
     "react-scripts": "3.4.4",
     "styled-components": "5.1.0"
