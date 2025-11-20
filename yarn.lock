@@ -1717,13 +1717,13 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-lazy-load-image-component@1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@types/react-lazy-load-image-component/-/react-lazy-load-image-component-1.6.4.tgz#b524656f3a468ca18740768075afbc51b4242412"
-  integrity sha512-8pFPeDPF4yVG4lU1/ixZidJEEDZmEOYOTYDvmIu2IAabyuv97Q7n/93nMCocHvQ7vD1czKGiW+op55D9m3MkdA==
+"@types/react-lazy-load-image-component@1.6.5":
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@types/react-lazy-load-image-component/-/react-lazy-load-image-component-1.6.5.tgz#d5fcebe97fbb507afc75077b903420eec6595e6e"
+  integrity sha512-Pyhy/H3oFqHqiCfH/97y4YAc4du04qs54g+9oC08nbRSr2dq3wIqVOY/3VyKxWU1/f42BgjRgMAJ8TyB2mK92A==
   dependencies:
     "@types/react" "*"
-    csstype "^3.0.2"
+    csstype "^3.2.2"
 
 "@types/react-native@*":
   version "0.62.10"
@@ -3783,6 +3783,11 @@ csstype@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
+
+csstype@^3.2.2:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
+  integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
 
 cyclist@^1.0.1:
   version "1.0.1"
