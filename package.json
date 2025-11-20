@@ -50,6 +50,6 @@
     "@types/react-router-dom": "5.3.3",
     "@types/styled-components": "5.1.0",
     "jest-environment-jsdom-sixteen": "^2.0.0",
-    "typescript": "3.9.10"
+    "typescript": "5.9.3"
   }
 }
