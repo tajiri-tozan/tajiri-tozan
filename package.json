@@ -4,7 +4,7 @@
   "private": false,
   "dependencies": {
     "@material-ui/core": "4.9.14",
-    "@material-ui/icons": "4.9.1",
+    "@mui/icons-material": "5.0.0",
     "animate.css": "4.1.1",
     "react": "16.14.0",
     "react-animate-on-scroll": "2.1.9",
